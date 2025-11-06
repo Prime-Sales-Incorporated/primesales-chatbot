@@ -161,8 +161,8 @@ const ChatBot = () => {
 
     try {
       const res = await axios.get(
-        // "https://psi-chatbot-backend.onrender.com/chat",
-        "http://localhost:5000/chat",
+        "https://primesales-chatbot-server.onrender.com/chat",
+        // "http://localhost:5000/chat",
         { params: { message: messageToSend } }
       );
 
