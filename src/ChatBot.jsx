@@ -165,7 +165,8 @@ const ChatBot = () => {
         // "http://localhost:5000/chat",
         { params: { message: messageToSend } }
       );
-
+ 
+      
       // Normalize reply into string
       let fullText = res.data?.reply ?? "No reply received.";
       if (typeof fullText !== "string") {
